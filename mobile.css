@@ -1,0 +1,81 @@
+@media (max-width: 614px) {
+    .sidebar {
+        display: none;
+    }
+    .seta {
+        display: none;
+    }
+    .caixa_stories{
+        background-color: #f7f4f4;
+    }
+
+    .storie{
+        background-color: #f7f4f4;
+    }
+    
+    .foto_storie{
+        background-color: #f7f4f4;
+    }
+    
+                        
+    .texto_abaixo{
+        background-color: #f7f4f4;
+    
+    }
+    .barra_do_topo_mobile{
+        display: inline;
+        background-color: #ffffff;
+        height: 54px;
+        width: 100%;
+        position: fixed;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        top: 0px;
+        left: 0px;
+        z-index: 1;
+        border-bottom: 1px solid #DBDBDB;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .barra_do_topo{
+        display:none;
+    }
+    .elementos_barra{
+        justify-content: space-around;
+    }
+    .conteudo_global {
+        margin-top: 54px;
+        width: 100%;
+    }
+    .coluna_posts{
+        margin-top:0px;
+    }
+    .barra_inferior {
+        display: inline;
+        background-color: #ffffff ;
+        height: 54px;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        position: fixed;
+        bottom: 0px;
+        left: 0px;
+        border-top: 1px solid #DBDBDB;
+    }
+    .botao_icon {
+        background-color: #ffffff;
+        width: 40px;
+    }
+    .elementos_barra {
+        width: 100%;
+    }
+    .conteudo_global {
+        justify-content: center;
+    }
+        
+}
